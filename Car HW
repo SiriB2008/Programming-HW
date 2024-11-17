@@ -25,3 +25,16 @@ class Car {
         System.out.println("You are refueling your tank");
     }
 }
+
+class Main {
+    public static void main(String[] args) {
+        Car myCar = new Car ("Chevrolet", "Corvette", 4);
+
+        myCar.displayInfo();
+
+        myCar.refueltank();
+
+        myCar.driveForward();
+    }
+}
+
